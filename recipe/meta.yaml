@@ -40,6 +40,7 @@ test:
 about:
   home: https://github.com/Chaoses-Ib/nest-asyncio2
   license: BSD-2-Clause
+  license_family: BSD
   license_file: LICENSE
   summary: Patch asyncio to allow nested event loops
   description: |
@@ -48,6 +49,8 @@ about:
     Trying to do so will give the error "RuntimeError: This event loop is already running".
     The issue pops up in various environments, such as web servers, GUI applications and in Jupyter notebooks.
     This module patches asyncio to allow nested use of asyncio.run and loop.run_until_complete.
+  doc_url: https://github.com/Chaoses-Ib/nest-asyncio2/blob/master/README.md
+  dev_url: https://github.com/Chaoses-Ib/nest-asyncio2
 
 extra:
   recipe-maintainers:
